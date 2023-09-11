@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 255);
+    padding: 10px;
+    border-bottom: solid medium #F59D2F;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #F59D2F;
+}
+
+#top {
+    font-family: 'Oswald', sans-serif;
+    margin: 1px 5px;
+    padding-bottom: 0.5%;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 255);
+    padding: 10px;
+    border-top: solid medium #F59D2F;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #F59D2F;
+}
+
+#bottom {
+    font-family: 'Oswald', sans-serif;
+    margin: 1px 5px;
+    padding-bottom: 1%;
+}
+
+a:hover {
+    font-family: 'Rubik Iso', cursive;
+    color: #92c7fb;
+    cursor: pointer;
+}
+
+.first {
+    background-color: #1f64fd;
+    padding: 0px 0px;
+}
+
+#name,
+#phrase {
+    margin: 0 0;
+    padding: 40px 30px;
+    line-height: 0%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 400%;
+}
+
+#name {
+    font-family: 'Oswald', sans-serif;
+}
+
+#phrase {
+    font-family: 'Rubik Iso', cursive;
+    background-blend-mode: multiply;
+}
+
+#img1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* position: absolute; */
+}
+
+#img2 {
+    border-top: solid 8px #1f1512;
+}
+
+#head img {
+    border-radius: 50% 20% / 10% 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 10%;
+    border: solid 5px #F59D2F;
+}
+
+#me {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: solid medium #1f1512;
+    color: #2997e5;
+}
+
+.second {
+    font-family: 'Oswald', sans-serif;
+    color: #F59D2F;
+}
+
+#About {
+    text-align: center;
+    color: #2997e5;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 30px;
+    justify-content: center;
+    color: #2997e5;
+}
+
+.card {
+    text-align: center;
+    width: 400px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #3d393e;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #3d393e;
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid #2f87f5;
+    border-left: 5px solid #2f87f5;
+    right: -1px;
+    bottom: -1px;
+    border-right: 5px solid #2f87f5;
+    border-bottom: 5px solid #2f87f5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #F59D2F;
+}
+
+.card a:hover {
+    color: #2997e5;
+}
+
+.contactBody {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card2 {
+    margin: auto;
+    width: 50%;
+    padding: 80px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #3d393e;
+    transition: 0.3s;
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 #3d393e;
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid #2f87f5;
+    border-left: 5px solid #2f87f5;
+    right: -1px;
+    bottom: -1px;
+    border-right: 5px solid #2f87f5;
+    border-bottom: 5px solid #2f87f5;
+}
+
+.one-col {
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 80px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(https://i.gifer.com/5GpD.gif);
+}
+
+input[type="submit"] {
+    background-color: #F59D2F;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10em;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 0 black;
+}
+
+input[type="submit"]:active {
+    box-shadow: 0 0 0 0 black;
+    transform: translateY(2px) translateX(1px);
+}
+
+input[type="submit"]:hover {
+    box-shadow: 2px 5px 0 0 black;
+    transform: translateY(-4px) translateX(-2px);
+}
